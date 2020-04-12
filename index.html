@@ -118,7 +118,7 @@
       // DONE
       // add event handler for when the carousel has slid
       $("#browse-carousel").bind("slid.bs.carousel", function() {
-          console.log("slid")
+          console.log("slid");
           var newIndex = $("#browse-carousel").find(".active").index();
           console.log(newIndex);
           model.browseActiveIndex = newIndex;
